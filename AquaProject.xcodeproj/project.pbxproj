@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8496EC482595D136007BA616 /* UserAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC472595D136007BA616 /* UserAuthModel.swift */; };
+		8496EC4D2595D79A007BA616 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC4B2595D79A007BA616 /* MapViewController.swift */; };
+		8496EC4E2595D79A007BA616 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496EC4C2595D79A007BA616 /* MapViewController.xib */; };
+		8496EC52259609AF007BA616 /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC51259609AF007BA616 /* MapUIView.swift */; };
+		8496EC55259609C4007BA616 /* MapUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496EC54259609C4007BA616 /* MapUIView.xib */; };
+		8496EC5825960A73007BA616 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC5725960A73007BA616 /* UIViewExtension.swift */; };
 		84CBAB7F2594BB780063A352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAB7E2594BB780063A352 /* AppDelegate.swift */; };
 		84CBAB812594BB780063A352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAB802594BB780063A352 /* SceneDelegate.swift */; };
 		84CBAB832594BB780063A352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAB822594BB780063A352 /* ViewController.swift */; };
@@ -15,9 +21,17 @@
 		84CBAB8B2594BB790063A352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CBAB892594BB790063A352 /* LaunchScreen.storyboard */; };
 		84CBAB962594BBBE0063A352 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAB942594BBBE0063A352 /* CustomViewController.swift */; };
 		84CBAB972594BBBE0063A352 /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CBAB952594BBBE0063A352 /* CustomViewController.xib */; };
+		84FA6CBF2596189500D4D064 /* SwimmingPoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA6CBD2596189500D4D064 /* SwimmingPoolViewController.swift */; };
+		84FA6CC02596189500D4D064 /* SwimmingPoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA6CBE2596189500D4D064 /* SwimmingPoolViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8496EC472595D136007BA616 /* UserAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthModel.swift; sourceTree = "<group>"; };
+		8496EC4B2595D79A007BA616 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8496EC4C2595D79A007BA616 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		8496EC51259609AF007BA616 /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
+		8496EC54259609C4007BA616 /* MapUIView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapUIView.xib; sourceTree = "<group>"; };
+		8496EC5725960A73007BA616 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		84CBAB7B2594BB780063A352 /* AquaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CBAB7E2594BB780063A352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CBAB802594BB780063A352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +42,8 @@
 		84CBAB8C2594BB790063A352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CBAB942594BBBE0063A352 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		84CBAB952594BBBE0063A352 /* CustomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
+		84FA6CBD2596189500D4D064 /* SwimmingPoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmingPoolViewController.swift; sourceTree = "<group>"; };
+		84FA6CBE2596189500D4D064 /* SwimmingPoolViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwimmingPoolViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8496EC5A25960C28007BA616 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8496EC54259609C4007BA616 /* MapUIView.xib */,
+				8496EC4C2595D79A007BA616 /* MapViewController.xib */,
+				84CBAB952594BBBE0063A352 /* CustomViewController.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		8496EC5B25960C4A007BA616 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84CBAB822594BB780063A352 /* ViewController.swift */,
+				84FA6CBD2596189500D4D064 /* SwimmingPoolViewController.swift */,
+				84FA6CBE2596189500D4D064 /* SwimmingPoolViewController.xib */,
+				8496EC4B2595D79A007BA616 /* MapViewController.swift */,
+				84CBAB942594BBBE0063A352 /* CustomViewController.swift */,
+				8496EC51259609AF007BA616 /* MapUIView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8496EC5D25960C5F007BA616 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8496EC5725960A73007BA616 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8496EC5F25960C6A007BA616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8496EC472595D136007BA616 /* UserAuthModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8496EC6125960C84007BA616 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8496EC5A25960C28007BA616 /* Xib */,
+				84CBAB842594BB780063A352 /* Main.storyboard */,
+				84CBAB892594BB790063A352 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		84CBAB722594BB780063A352 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +125,13 @@
 		84CBAB7D2594BB780063A352 /* AquaProject */ = {
 			isa = PBXGroup;
 			children = (
+				8496EC5F25960C6A007BA616 /* Model */,
+				8496EC5B25960C4A007BA616 /* Controller */,
+				8496EC5D25960C5F007BA616 /* Extension */,
+				8496EC6125960C84007BA616 /* View */,
+				84CBAB872594BB790063A352 /* Assets.xcassets */,
 				84CBAB7E2594BB780063A352 /* AppDelegate.swift */,
 				84CBAB802594BB780063A352 /* SceneDelegate.swift */,
-				84CBAB822594BB780063A352 /* ViewController.swift */,
-				84CBAB942594BBBE0063A352 /* CustomViewController.swift */,
-				84CBAB952594BBBE0063A352 /* CustomViewController.xib */,
-				84CBAB842594BB780063A352 /* Main.storyboard */,
-				84CBAB872594BB790063A352 /* Assets.xcassets */,
-				84CBAB892594BB790063A352 /* LaunchScreen.storyboard */,
 				84CBAB8C2594BB790063A352 /* Info.plist */,
 			);
 			path = AquaProject;
@@ -131,8 +195,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CBAB8B2594BB790063A352 /* LaunchScreen.storyboard in Resources */,
+				8496EC55259609C4007BA616 /* MapUIView.xib in Resources */,
 				84CBAB882594BB790063A352 /* Assets.xcassets in Resources */,
 				84CBAB862594BB780063A352 /* Main.storyboard in Resources */,
+				8496EC4E2595D79A007BA616 /* MapViewController.xib in Resources */,
+				84FA6CC02596189500D4D064 /* SwimmingPoolViewController.xib in Resources */,
 				84CBAB972594BBBE0063A352 /* CustomViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,8 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CBAB832594BB780063A352 /* ViewController.swift in Sources */,
+				8496EC4D2595D79A007BA616 /* MapViewController.swift in Sources */,
+				84FA6CBF2596189500D4D064 /* SwimmingPoolViewController.swift in Sources */,
+				8496EC52259609AF007BA616 /* MapUIView.swift in Sources */,
+				8496EC482595D136007BA616 /* UserAuthModel.swift in Sources */,
 				84CBAB7F2594BB780063A352 /* AppDelegate.swift in Sources */,
 				84CBAB812594BB780063A352 /* SceneDelegate.swift in Sources */,
+				8496EC5825960A73007BA616 /* UIViewExtension.swift in Sources */,
 				84CBAB962594BBBE0063A352 /* CustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

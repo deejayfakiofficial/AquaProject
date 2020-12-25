@@ -1,19 +1,20 @@
 //
-//  CustomViewController.swift
+//  SwimmingPoolViewController.swift
 //  AquaProject
 //
-//  Created by Stanislav Terentyev on 24.12.2020.
+//  Created by Stanislav Terentyev on 25.12.2020.
 //
 
 import UIKit
 
-final class CustomViewController: UIViewController {
+class SwimmingPoolViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation

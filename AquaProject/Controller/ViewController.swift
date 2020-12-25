@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let cvc = CustomViewController()
+        self.pushViewController(cvc, animated: true)
     }
-
 
 }
 
