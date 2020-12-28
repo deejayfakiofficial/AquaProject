@@ -11,8 +11,8 @@ class ViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let cvc = CustomViewController()
-        self.pushViewController(cvc, animated: true)
+        let customViewController = CustomViewController()
+        self.pushViewController(customViewController, animated: true)
     }
 
 }

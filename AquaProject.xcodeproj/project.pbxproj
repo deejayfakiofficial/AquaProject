@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8483A87C2599B277009321BD /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483A87B2599B277009321BD /* ShapeView.swift */; };
 		8496EC482595D136007BA616 /* UserAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC472595D136007BA616 /* UserAuthModel.swift */; };
 		8496EC4D2595D79A007BA616 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC4B2595D79A007BA616 /* MapViewController.swift */; };
 		8496EC4E2595D79A007BA616 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496EC4C2595D79A007BA616 /* MapViewController.xib */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8483A87B2599B277009321BD /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8496EC472595D136007BA616 /* UserAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthModel.swift; sourceTree = "<group>"; };
 		8496EC4B2595D79A007BA616 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8496EC4C2595D79A007BA616 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
@@ -61,8 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				8496EC54259609C4007BA616 /* MapUIView.xib */,
-				8496EC4C2595D79A007BA616 /* MapViewController.xib */,
 				84CBAB952594BBBE0063A352 /* CustomViewController.xib */,
+				8496EC4C2595D79A007BA616 /* MapViewController.xib */,
+				84FA6CBE2596189500D4D064 /* SwimmingPoolViewController.xib */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -71,11 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				84CBAB822594BB780063A352 /* ViewController.swift */,
-				84FA6CBD2596189500D4D064 /* SwimmingPoolViewController.swift */,
-				84FA6CBE2596189500D4D064 /* SwimmingPoolViewController.xib */,
-				8496EC4B2595D79A007BA616 /* MapViewController.swift */,
 				84CBAB942594BBBE0063A352 /* CustomViewController.swift */,
-				8496EC51259609AF007BA616 /* MapUIView.swift */,
+				8496EC4B2595D79A007BA616 /* MapViewController.swift */,
+				84FA6CBD2596189500D4D064 /* SwimmingPoolViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -100,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				8496EC5A25960C28007BA616 /* Xib */,
+				8496EC51259609AF007BA616 /* MapUIView.swift */,
+				8483A87B2599B277009321BD /* ShapeView.swift */,
 				84CBAB842594BB780063A352 /* Main.storyboard */,
 				84CBAB892594BB790063A352 /* LaunchScreen.storyboard */,
 			);
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8483A87C2599B277009321BD /* ShapeView.swift in Sources */,
 				84CBAB832594BB780063A352 /* ViewController.swift in Sources */,
 				8496EC4D2595D79A007BA616 /* MapViewController.swift in Sources */,
 				84FA6CBF2596189500D4D064 /* SwimmingPoolViewController.swift in Sources */,

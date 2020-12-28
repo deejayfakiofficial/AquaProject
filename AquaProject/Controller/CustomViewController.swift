@@ -16,16 +16,16 @@ final class CustomViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let cvc = CustomViewController()
-//        self.navigationController?.pushViewController(cvc, animated: true)
+//        let customViewController = CustomViewController()
+//        self.navigationController?.pushViewController(customViewController, animated: true)
     }
     
     @IBAction func doneButtonTouched(_ sender: UIButton) {
         guard let login = userAuthModel.login.keys.first,
               let password = userAuthModel.login.values.first else {return}
         if loginTextField.text == login && passwordTextField.text == password {
-            let mvc = MapViewController()
-            self.navigationController?.pushViewController(mvc, animated: true)
+            let mapViewController = MapViewController()
+            self.navigationController?.pushViewController(mapViewController, animated: true)
         }
         
     }
