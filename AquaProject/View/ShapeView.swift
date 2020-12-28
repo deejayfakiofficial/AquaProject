@@ -9,6 +9,7 @@ import UIKit
 
 class ShapeView: UIView {
     let lineWidth: CGFloat = 3.0
+    var pathArray = [CGRect]()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -36,6 +37,8 @@ class ShapeView: UIView {
         pathFirst.lineWidth = lineWidth
         UIColor.black.setStroke()
         pathFirst.stroke()
+        pathArray.append(pathRectFirst)
+        print (pathRectFirst.minX, pathRectFirst.minY,pathRectFirst.width,pathRectFirst.height)
         
         let pathRectSecond = CGRect(x: 200, y: 275, width: rect.width/17, height: rect.height/8)
         let pathSecond = UIBezierPath(roundedRect: pathRectSecond, cornerRadius: 24)
