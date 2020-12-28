@@ -9,15 +9,38 @@ import UIKit
 
 class ShapeView: UIView {
     let lineWidth: CGFloat = 3.0
-    var pathArray = [CGRect]()
-
+    var pathArraty = [CALayer]()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setup()
     }
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setup()
     }
+    
+    func setup () {
+        let ovalPath = CAShapeLayer()
+        ovalPath.path = createOvalPath(x: 100, y: 100).cgPath
+        ovalPath.lineWidth = lineWidth
+        ovalPath.strokeColor = UIColor.blue.cgColor
+        ovalPath.fillColor = UIColor.yellow.cgColor
+        ovalPath.position = CGPoint(x: 50, y: 50)
+        self.layer.addSublayer(ovalPath)
+    }
+    
+    func createOvalPath(x:CGFloat, y:CGFloat) -> UIBezierPath {
+        let ovalPath = UIBezierPath(ovalIn: CGRect(x: x, y: y, width: 10, height: 10))
+        let colorMain = UIColor.yellow
+        colorMain.setFill()
+        ovalPath.fill()
+        UIColor.black.setStroke()
+        ovalPath.stroke()
+        return ovalPath
+    }
+    
 
     override func draw(_ rect: CGRect) {
         let pathRectMain = CGRect(x: 50, y: 50, width: rect.width - 100, height: rect.height - 100)
@@ -37,8 +60,8 @@ class ShapeView: UIView {
         pathFirst.lineWidth = lineWidth
         UIColor.black.setStroke()
         pathFirst.stroke()
-        pathArray.append(pathRectFirst)
-        print (pathRectFirst.minX, pathRectFirst.minY,pathRectFirst.width,pathRectFirst.height)
+        
+//        print (pathRectFirst.minX, pathRectFirst.minY,pathRectFirst.width,pathRectFirst.height)
         
         let pathRectSecond = CGRect(x: 200, y: 275, width: rect.width/17, height: rect.height/8)
         let pathSecond = UIBezierPath(roundedRect: pathRectSecond, cornerRadius: 24)
