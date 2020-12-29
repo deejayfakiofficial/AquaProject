@@ -11,8 +11,6 @@
 		8496EC482595D136007BA616 /* UserAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC472595D136007BA616 /* UserAuthModel.swift */; };
 		8496EC4D2595D79A007BA616 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC4B2595D79A007BA616 /* MapViewController.swift */; };
 		8496EC4E2595D79A007BA616 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496EC4C2595D79A007BA616 /* MapViewController.xib */; };
-		8496EC52259609AF007BA616 /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC51259609AF007BA616 /* MapUIView.swift */; };
-		8496EC55259609C4007BA616 /* MapUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496EC54259609C4007BA616 /* MapUIView.xib */; };
 		8496EC5825960A73007BA616 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EC5725960A73007BA616 /* UIViewExtension.swift */; };
 		84CBAB7F2594BB780063A352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAB7E2594BB780063A352 /* AppDelegate.swift */; };
 		84CBAB812594BB780063A352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAB802594BB780063A352 /* SceneDelegate.swift */; };
@@ -31,8 +29,6 @@
 		8496EC472595D136007BA616 /* UserAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthModel.swift; sourceTree = "<group>"; };
 		8496EC4B2595D79A007BA616 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8496EC4C2595D79A007BA616 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		8496EC51259609AF007BA616 /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
-		8496EC54259609C4007BA616 /* MapUIView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapUIView.xib; sourceTree = "<group>"; };
 		8496EC5725960A73007BA616 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		84CBAB7B2594BB780063A352 /* AquaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CBAB7E2594BB780063A352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +58,6 @@
 		8496EC5A25960C28007BA616 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				8496EC54259609C4007BA616 /* MapUIView.xib */,
 				84CBAB952594BBBE0063A352 /* CustomViewController.xib */,
 				8496EC4C2595D79A007BA616 /* MapViewController.xib */,
 				84FA6CBE2596189500D4D064 /* SwimmingPoolViewController.xib */,
@@ -101,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				8496EC5A25960C28007BA616 /* Xib */,
-				8496EC51259609AF007BA616 /* MapUIView.swift */,
 				8483A87B2599B277009321BD /* ShapeView.swift */,
 				84CBAB842594BB780063A352 /* Main.storyboard */,
 				84CBAB892594BB790063A352 /* LaunchScreen.storyboard */,
@@ -198,7 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CBAB8B2594BB790063A352 /* LaunchScreen.storyboard in Resources */,
-				8496EC55259609C4007BA616 /* MapUIView.xib in Resources */,
 				84CBAB882594BB790063A352 /* Assets.xcassets in Resources */,
 				84CBAB862594BB780063A352 /* Main.storyboard in Resources */,
 				8496EC4E2595D79A007BA616 /* MapViewController.xib in Resources */,
@@ -218,7 +211,6 @@
 				84CBAB832594BB780063A352 /* ViewController.swift in Sources */,
 				8496EC4D2595D79A007BA616 /* MapViewController.swift in Sources */,
 				84FA6CBF2596189500D4D064 /* SwimmingPoolViewController.swift in Sources */,
-				8496EC52259609AF007BA616 /* MapUIView.swift in Sources */,
 				8496EC482595D136007BA616 /* UserAuthModel.swift in Sources */,
 				84CBAB7F2594BB780063A352 /* AppDelegate.swift in Sources */,
 				84CBAB812594BB780063A352 /* SceneDelegate.swift in Sources */,
