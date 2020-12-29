@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController" customModule="AquaProject" customModuleProvider="target">
             <connections>
+                <outlet property="shapeView" destination="i5M-Pr-FkT" id="cl1-d4-7Cr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

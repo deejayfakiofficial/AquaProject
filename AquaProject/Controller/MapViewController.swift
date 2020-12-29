@@ -9,6 +9,8 @@ import UIKit
 
 class MapViewController: UIViewController {
     
+    @IBOutlet var shapeView: ShapeView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
