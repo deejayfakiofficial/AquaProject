@@ -65,7 +65,6 @@ class ShapeView: UIView {
         pathArray.append(pathTwo)
         pathArray.append(pathThree)
         pathArray.append(pathFour)
-        print(pathArray)
     }
     
 //    func animatePath () {
