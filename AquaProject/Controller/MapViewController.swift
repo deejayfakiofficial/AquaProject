@@ -24,11 +24,11 @@ class MapViewController: UIViewController {
         super.touchesBegan(touches, with: event)
         let touches = touches.first!
         let location = touches.location(in: view)
-        guard let point = shapeView.layer.position else { return }
+        guard let point = shapeView?.layer.position else { return }
         for layer in shapeView.pathArray {
                 if let path = layer.path, path.contains(point) {
                     //layer.fillColor = UIColor.red.cgColor
-                    //print(arrLayers.firstIndex(where: { $0 == layer }) ?? 0)
+                    //print(shapeView.pathArray.firstIndex(where: { $0 == layer }) ?? 0)
                 }
             }
             
